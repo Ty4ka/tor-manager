@@ -22,6 +22,10 @@
   ],
   "author": "Dmitrii Osipovich",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ty4ka/tor-mgr/issues"
+  },
+  "homepage": "https://github.com/Ty4ka/tor-mgr#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.2",

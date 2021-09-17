@@ -1,10 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "declaration": true,
     "outDir": "./lib",
+    "target": "ES2021",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "esModuleInterop": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "declaration": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
