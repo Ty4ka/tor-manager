@@ -50,7 +50,7 @@ class TorManager {
         new Promise((resolve) => setTimeout(() => resolve(true), 10e3))
       ]);
     } catch (e) {
-      console.log(e);
+      return e;
     }
   }
 
