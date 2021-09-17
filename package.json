@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -23,8 +23,11 @@
   "author": "Dmitrii Osipovich",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.9.2",
+    "jest": "^27.2.0",
     "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.4.3"
